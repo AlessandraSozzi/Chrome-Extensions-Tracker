@@ -6,7 +6,7 @@ class WebstorescraperSpider(scrapy.Spider):
     name = "webstoreScraper"
     allowed_domains = ["chrome.google.com"]
     start_urls = (
-        'http://www.chrome.google.com/',
+        'https://chrome.google.com/webstore/category/ext/28-photos',
     )
 
     def parse(self, response):
