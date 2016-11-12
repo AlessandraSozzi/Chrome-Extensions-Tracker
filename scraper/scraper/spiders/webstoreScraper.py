@@ -37,6 +37,8 @@ class WebstorescraperSpider(Spider):
 		    if (lastCount == lenOfPage):
 		        break
 
-		
+		filename = 'test.html'
+        with open(filename, 'wb') as f:
+            f.write(response.body)
 
 
