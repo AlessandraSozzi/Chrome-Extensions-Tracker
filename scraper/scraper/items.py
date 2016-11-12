@@ -3,7 +3,7 @@
 from scrapy.item import Item, Field
 
 
-class ScraperItem(scrapy.Item):
+class ScraperItem(Item):
     
     name = Field()
 	google_id = Field()
