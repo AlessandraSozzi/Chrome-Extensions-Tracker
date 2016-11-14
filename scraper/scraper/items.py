@@ -10,7 +10,3 @@ class ScraperItem(Item):
     raters = Field()
     users = Field()
     version = Field()
-    group = Field()
-    rank = Field()
-    short_text = Field()
-    long_text = Field()
